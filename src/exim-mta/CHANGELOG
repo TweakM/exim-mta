@@ -1,0 +1,55 @@
+webmin-exim (0.2.7)
+
+  * Fix for deprecated perl command 'defined' (line 25 in messages.cgi).
+  * Fix for non-working module urls (redirect).
+  * Fix for overlap with skeleton exim module in Webmin (module rename). Overlap caused disappearance of module at each webmin update.
+  * Fix for omission of module version in header.
+  * Fix for HTML mail bodies not displaying correctly
+
+  -- TweakM <46035006+TweakM@users.noreply.github.com>  Thu, 23 Dec 2018 00:00:00 +0000
+
+webmin-exim (0.2.6)
+
+  * Improved exim4 support. 
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Wed, 10 Mar 2004 11:44:03 +0100
+
+webmin-exim (0.2.5)
+
+  * The log viewer was really slow with huge log files; thank to Chris Groesswang for pointing his out.
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Fri, 10 Oct 2003 17:07:04 +0200
+
+webmin-exim (0.2.4)
+
+  * Correted a bug which prevent the configuration page to display when the configuration is corrupted; thank to Robert A. Bell.
+  * The module version and exim version are now displayed on the index page.
+  * updated URL to the right module homepage.
+  
+ -- Alexandre Mathieu <mtlx@free.fr>  Mon, 24 Mar 2003 18:06:47 +0000
+
+webmin-exim (0.2.3)
+
+  * Corrected a bug which break the location of the log files when syslog is used by exim; submitted by Stephen Woodbridge.
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Thu, 06 Mar 2003 09:24:37 +0000
+ 
+webmin-exim (0.2.2)
+
+  * Corrected a 'bug' which prevent Internet Explorer to access the message management; in fact this is due to the non-standard way IE treats <button> </button> HTML tag.
+  * Corrected a bug which mixed up the location of the exim binary; submitted by Bill Carr.
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Mon, 10 Feb 2003 09:31:17 +0000
+ 
+webmin-exim (0.2.1)
+
+  * Correct a bug which appears when Exim is logging to syslog. The module will now display an error message; submitted by Per Heldal.
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Tue, 28 Jan 2003 13:41:28 +0000
+
+webmin-exim (0.2.0)
+
+  * Almost no changes were made to the user interface but the code has been entierely rewriten in on object oriented fashion to ease maintenability.
+
+ -- Alexandre Mathieu <mtlx@free.fr>  Mon, 20 Jan 2003 17:42:20 +0000
+ 

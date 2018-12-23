@@ -1,0 +1,11 @@
+exim_path=Exim executable,8,Automatic
+exim_conf=Exim configuration file,8, Exim default
+log_default=Default log file,1,main-main,panic-panic,reject-reject
+log_lines=Log lines,3,Default
+stat_topcount=Number of top sources/destination to display,3,Default
+stat_local_league_table=Display stlocal sources/destination in top listing,1,1-Yes,0-No
+stat_show_errors=Display error information,1,1-Yes,0-No
+stat_show_relay=Display relay information,1,1-Yes,0-No
+stat_show_transport=Display transport information,1,1-Yes,0-No
+stat_hist_opt=Histogram division per hour (O suppresses histograms),1,0-0,1-1,2-2,3-3,5-5,10-10,15-15,20-20,30-30,60-60
+stat_do_sender=show results by sending: ,2,host-Host,email-Email,domain-Domain

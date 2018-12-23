@@ -1,0 +1,6 @@
+name=exim-mta
+desc=Exim Monitor
+desc_fr=Moniteur Exim
+depends=0.92
+category=servers
+version=0.2.7

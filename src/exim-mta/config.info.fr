@@ -1,0 +1,11 @@
+exim_path=Éxécutable Exim,8,Automatique
+exim_conf=Fichier de configuration d'Exim,8,Par défaut
+log_default=Ficher de journal par défaut,1,main-main,panic-panic,reject-reject
+log_lines=Nombre de lignes du fichier journal à afficher,3,Par défaut
+stat_topcount=Top n,3,Aucun
+stat_local_league_table=Afficher les statisques sur les utilisateurs locaux,1,1-oui,0-non
+stat_show_errors=Afficher les statistiques d'erreurs,1,1-oui,0-non
+stat_show_relay=Afficher les statistiques de relais,1,1-oui,0-non
+stat_show_transport=Afficher les statistiques de transport,1,1-oui,0-non
+stat_hist_opt=Nombre de divisions par heure,1,0-0,1-1,2-2,3-3,5-5,10-10,15-15,20-20,30-30,60-60
+stat_do_sender=Sort sender by,2,host-Hôte,email-Mél,domain-Domaine
