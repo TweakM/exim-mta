@@ -37,13 +37,13 @@ This is a [Webmin](http://www.webmin.com) module for administering the Exim MTA 
 
 ## Change log
 
-Major changes for each version are documented in the [CHANGELOG](CHANGELOG).
+Major changes for each version are documented in the [CHANGELOG](/src/exim-mta/CHANGELOG).
 
 ## License
 
-This module is published under the [GNU GENERAL PUBLIC LICENSE](LICENSE).
+This module is published under the [GNU GENERAL PUBLIC LICENSE](/src/exim-mta/LICENSE).
 
-Please also consider the included [NOTICE](NOTICE) regarding Exim.
+Please also consider the included [NOTICE](/src/exim-mta/NOTICE) regarding Exim.
 
 ## Acknowledgements
 
