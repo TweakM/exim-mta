@@ -1,7 +1,7 @@
 exim_path=
 exim_conf=
 log_default=main
-log_lines=20
+log_lines=200
 stat_topcount=10
 stat_local_league_table=1
 stat_show_errors=1
