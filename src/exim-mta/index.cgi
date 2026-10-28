@@ -6,6 +6,7 @@ use strict;
 use integer;
 
 use Exim;
+use WebminCore;
 
 use vars qw(%config %text %module_info $module_name);
 

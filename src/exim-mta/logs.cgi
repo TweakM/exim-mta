@@ -7,6 +7,7 @@ use integer;
 
 use Fcntl qw(SEEK_CUR SEEK_END SEEK_SET O_RDONLY);
 use Exim;
+use WebminCore;
 use vars qw(%config %in %text);
 
 do '../web-lib.pl'; # Required by Webmin

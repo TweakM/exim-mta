@@ -6,6 +6,7 @@ use strict;
 use integer;
 use vars qw(%in %text %config);
 
+use WebminCore;
 use Exim::Message;
 use Exim::Spool;
 

@@ -5,6 +5,7 @@ require 5;
 use strict;
 use integer;
 use vars qw(%in %config %text); # Some vars exported by webmin
+use WebminCore;
 use Exim::Message::Action;
 
 do '../web-lib.pl'; # Required by Webmin

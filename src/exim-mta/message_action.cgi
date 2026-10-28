@@ -6,6 +6,7 @@ use strict;
 use integer;
 use vars qw{%in %config %text};
 use Exim::Message::Action;
+use WebminCore;
 
 do '../web-lib.pl'; # Required by Webmin
 init_config();      # Initiate the Webmin stuff
@@ -55,7 +56,7 @@ elsif ($action eq 'view_body') {
 }
 
 #foreach my $addr (@addrs) {
-   # !!!! vérifier les caractères autorisés dans la RFC822 (?)
+   # !!!! vï¿½rifier les caractï¿½res autorisï¿½s dans la RFC822 (?)
 #  parse_CGI($addr, 255, 'a-zA-Z0-9\-_\.\@');
 #}
 

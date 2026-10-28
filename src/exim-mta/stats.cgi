@@ -8,7 +8,7 @@ use integer;
 use strict;
 use Time::Local;
 use Exim;
-
+use WebminCore;
 
 ##################################################
 #             Static data                        #
